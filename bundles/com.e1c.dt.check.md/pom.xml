@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     Copyright (C) 2022, 1C-Soft LLC and others.
-   
+
     This program and the accompanying materials are made
     available under the terms of the Eclipse Public License 2.0
     which is available at https://www.eclipse.org/legal/epl-2.0/
-   
+
     SPDX-License-Identifier: EPL-2.0
-   
+
     Contributors:
         1C-Soft LLC - initial API and implementation
  -->
@@ -23,12 +23,12 @@
 	<artifactId>com.e1c.dt.check.md</artifactId>
 	<version>0.12.0-SNAPSHOT</version>
 	<packaging>eclipse-plugin</packaging>
-	
+
 	<properties>
 		<!-- base dir of bom module: bom/parent/bundle/this-module -->
 		<markdown.page.generator.html.file.path>${project.parent.parent.parent.basedir}</markdown.page.generator.html.file.path>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>

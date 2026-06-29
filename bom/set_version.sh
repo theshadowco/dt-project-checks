@@ -12,6 +12,8 @@
 #     1C-Soft LLC - initial API and implementation
 #*******************************************************************************
 
+set -x
+
 current_version='0.11.0'
 new_version='0.12.0'
 next_version='0.13.0'

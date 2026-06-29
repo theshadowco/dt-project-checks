@@ -44,7 +44,7 @@
       <plugins>
         <plugin>
           <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-p2-repository-plugin</artifactId>          
+          <artifactId>tycho-p2-repository-plugin</artifactId>
           <configuration>
             <repositoryName>${project.name} Repository</repositoryName>
           </configuration>
@@ -58,6 +58,11 @@
                   <requirement>
                     <type>eclipse-plugin</type>
                     <id>org.apache.felix.scr</id>
+                    <versionRange>0.0.0</versionRange>
+                  </requirement>
+                  <requirement>
+                    <type>eclipse-plugin</type>
+                    <id>org.eclipse.swt.svg</id>
                     <versionRange>0.0.0</versionRange>
                   </requirement>
                   <requirement>
