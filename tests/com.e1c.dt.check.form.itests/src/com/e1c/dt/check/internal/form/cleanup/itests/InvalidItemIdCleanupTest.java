@@ -431,12 +431,6 @@ public class InvalidItemIdCleanupTest
                     }
 
                     @Override
-                    public boolean isAsyncSaveRequired()
-                    {
-                        return true;
-                    }
-
-                    @Override
                     public void onBeforeSave(int taskCount)
                     {
                         // Nothing
